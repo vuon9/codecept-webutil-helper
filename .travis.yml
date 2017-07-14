@@ -6,6 +6,7 @@ php:
 before_install:
   - gem install mime-types --version "< 3"
   - phantomjs --webdriver=4444 >/dev/null 2>&1 &
+  - composer update
   - php vendor/bin/codecept build
 script:
   - php vendor/bin/codecept run acceptance -d --env travis
