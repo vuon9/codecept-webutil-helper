@@ -22,5 +22,5 @@ env:
             config:
                 Helper\WebUtil:
                     browser: chrome
-                    port: 9515
+                    port: 8888
                     host: localhost
