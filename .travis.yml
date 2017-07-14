@@ -9,4 +9,4 @@ before_install:
   - composer update
   - php vendor/bin/codecept build
 script:
-  - php vendor/bin/codecept run acceptance -d --env travis
+  - php vendor/bin/codecept run acceptance --env travis
