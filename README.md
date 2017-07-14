@@ -9,13 +9,13 @@ WebUtil is a helper for Codeception. I was extend it from WebDriver and white do
 
 ### Functions
 
-- To make custom screenshot instead default function of Codeception:
+- To make custom screenshot instead default `makeScreenshot` function:
     - `$I->makeCustomScreenshot($filename)`: The screenshot file will be saved in `tests/_output/screenshots/`.
     - `$I->setCustomScreenshotDir($screenshotOutputFolder)`: To create custom folder to save screenshots. Customized folder will be a child of `tests/_output/screenshots`.
     - `$I->renewCustomScreenshotDir()`: To delete and re-create screenshot dir when test is started.
 
 ### Suite configuration
-Enable `\Helper\WebUtil` module and make configurations for it instead WebDriver. Example:
+Enable `Helper\WebUtil` module and make configurations for it instead WebDriver. Example:
 ```yaml
 modules:
     enabled: 
