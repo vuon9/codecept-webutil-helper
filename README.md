@@ -4,6 +4,9 @@
 
 WebUtil is a helper for Codeception. I was extend it from WebDriver and white down some really helper functions.
 
+### Composer installation
+(Will be updated later)
+
 ### Functions
 
 - To make custom screenshot instead default function of Codeception:
