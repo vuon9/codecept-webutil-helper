@@ -18,5 +18,7 @@ modules:
             cleanup_screenshot: true #Cleanup screenshot when started test
 env:
     travis:
-        Helper\WebUtil:
-            browser: phantomjs
+        modules:
+            config:
+                Helper\WebUtil:
+                    browser: phantomjs
