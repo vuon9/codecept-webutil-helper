@@ -5,7 +5,10 @@
 WebUtil is a helper for Codeception. I was extend it from WebDriver and white down some really helper functions.
 
 ### Composer installation
-(Will be updated later)
+
+```
+composer require vuongggggg/codecept-webutil
+```
 
 ### Functions
 
