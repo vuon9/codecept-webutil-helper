@@ -21,4 +21,6 @@ env:
         modules:
             config:
                 Helper\WebUtil:
-                    browser: phantomjs
+                    browser: chrome
+                    port: 9515
+                    host: localhost
