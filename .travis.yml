@@ -8,8 +8,8 @@ php:
   - 5.6
 before_install:
   - gem install mime-types --version "< 3"
-  - google-chrome-stable --headless --disable-gpu --port=8888 https://github.com &
   - composer update
+  - "phantomjs --webdriver=4444 > /dev/null &"
   - php vendor/bin/codecept build
 script:
   - php vendor/bin/codecept run acceptance --env travis
