@@ -3,7 +3,14 @@ use \AcceptanceTester as AcceptanceTester;
 
 class WebUtilCest
 {
-    // tests
+    public function _before()
+    {
+    }
+
+    public function _after()
+    {
+    }
+    
     public function testScreenshot(AcceptanceTester $I)
     {
         $now = time();

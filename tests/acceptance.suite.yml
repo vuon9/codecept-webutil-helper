@@ -12,6 +12,7 @@ modules:
         Helper\WebUtil:
             url: 'https://github.com/' # Ec server orange website
             browser: chrome # Browser: <chrome|firefox|internet explorer|MicrosoftEdge>
+            host: '10.0.2.2' # Selenium Browser server host that is running
             window_size: 1024x864
-            port: 1080 # Selenium Browser server port
+            port: 4444 # Selenium Browser server port
             cleanup_screenshot: true #Cleanup screenshot when started test
