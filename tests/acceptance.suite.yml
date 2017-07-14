@@ -22,3 +22,4 @@ env:
             config:
                 Helper\WebUtil:
                     browser: phantomjs
+                    host: '127.0.0.1'
