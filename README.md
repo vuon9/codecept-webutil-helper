@@ -1,6 +1,6 @@
 # Codecept WebUtil
 
-![asd](https://api.travis-ci.org/vuongggggg/codecept-webutil-helper.svg?branch=master)
+[![Build Status](https://travis-ci.org/vuongggggg/codecept-webutil-helper.svg?branch=master)](https://travis-ci.org/vuongggggg/codecept-webutil-helper)
 
 WebUtil is a helper for Codeception. I was extend it from WebDriver and white down some really helper functions.
 
