@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/vuongggggg/codecept-webutil-helper.svg?branch=master)](https://travis-ci.org/vuongggggg/codecept-webutil-helper)
 
-WebUtil is a helper for Codeception. I was extend it from WebDriver and white down some really helper functions.
+WebUtil is a helper for Codeception, it just support for making screenshot.
 
 ### Composer installation
 
